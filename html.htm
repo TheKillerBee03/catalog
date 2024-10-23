@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
+  <link rel="stylesheet" href="style.css">
+  <title>Online Product list for Technology</title>
+  <!-- link of box icons -->
+  
+</head>
+
+<body>
+  <h2>Online Product list for Technology</h2>
+  
+    <div class="tech"></div>
+    <tfoot >
+        <p class="ft"> <b>Designed by:</b> <ins> Mama, Jalal A.</ins> </p>
+        <p ><b>From: </b><ins>12-Cooper</ins></p>
+        <p><b>Adviser:</b> <ins>Jovite De Vera</ins></p>
+        
+      </tfoot>
+</body>
+ <script>
+   
+   fetch('Technology.json')
+     .then(res => {
+       if (!res.ok) {
+         console.log('Problem');
+         return;
+       }
+       return res.json();
+     })
+     
+     .then((data) => { // Access the entire data object
+       let placeholder = document.querySelector(".tech");
+       let output = "";
+       // Loop through the 'book' array
+       for (let technology of data.technology) { // Change 'books' to 'data.book'
+         output += `
+                   <div class="technology">
+                    <img src="${technology.ProductImage}" >
+                    <p class="title"><b>${technology.ProductName}</b></p>
+                      <p class="description">${technology.ProductDescription}</p>
+                       <p class="price"><span>${technology.ProductPrice}</span></p>
+                       <p class="cart">Add To Cart<i class="bx bx-cart-alt"></i></p>
+                       </div>
+                       
+                   `;
+       }
+       placeholder.innerHTML = output; // Ensure this is outside the loop
+     }) // End of then
+     .catch(error => {
+       console.log(error);
+     });
+   </script>
+ 
+</html>

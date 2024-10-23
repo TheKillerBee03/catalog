@@ -1,0 +1,61 @@
+{"technology":[{
+  "ProductName": "Monitor",
+  "ProductDescription": " A computer monitor is the device that displays the information produced by the video card. ",
+  "ProductImage": "monitor.jpeg",
+  "ProductPrice":"$ 5,999"
+},
+{
+  "ProductName": "CPU",
+  "ProductDescription": "A CPU is the primary component of a computer that processes instructions.",
+  "ProductImage": "cpu.jpeg",
+  "ProductPrice":"$ 10,999"
+},
+{
+  "ProductName": "Printer",
+  "ProductDescription": "A printer is an output device that prints paper documents, such as text, images, or a combination of both. ",
+  "ProductImage": "printer.jpeg",
+  "ProductPrice": "$ 8,999"
+},
+{
+  "ProductName": "KeyBoard",
+  "ProductDescription": "a panel of keys that operate a computer or typewriter.",
+  "ProductImage": "keyboard.jpeg",
+  "ProductPrice": "$ 899"
+},
+{
+  "ProductName": "Iphone 16 Pro Max Ultra",
+  "ProductDescription": "a telephone with access to a cellular radio system so it can be used over a wide area,<br> without a physical connection to a network.",
+  "ProductImage": "phone.jpeg",
+  "ProductPrice": "$ 129,999"
+},
+{ 
+  "ProductName": "PLDT WIFI",
+  "ProductDescription": "an electronic communications network that connects computer networks and organizational <br> computer facilities around the world.",
+  "ProductImage": "pldt.jpeg",
+  "ProductPrice": "$ 1,299"
+},
+{
+  "ProductName": "TV",
+  "ProductDescription": "a device for watching television.",
+  "ProductImage": "tv.jpeg",
+  "ProductPrice": "$ 10,899"
+},
+{
+  "ProductName": "Laptop",
+  "ProductDescription": "a device that is portable and suitable for use while traveling.",
+  "ProductImage": "laptop.jpeg",
+  "ProductPrice": "$ 5,999"
+},
+{
+  "ProductName": "Tablet",
+  "ProductDescription": "tablet is a portable device that uses a touchscreen as its primary input device. ",
+  "ProductImage": "tablet.jpeg",
+  "ProductPrice": "$ 4,999"
+},
+{
+  "ProductName": "GPS",
+  "ProductDescription": "GPS is a satellite-based radio navigation system owned by the US government and operated by the US Space Force.",
+  "ProductImage": "gps.jpeg",
+  "ProductPrice":"$ 999"
+}
+  ]}
